@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>stock value</title>
+  </head>
+  <body>
+    <header class="main--header">
+      <h1>Check Profit/Loss on Stocks</h1>
+    </header>
+    <div class="container">
+      <div class="item1">
+        <form action="" method="get" id="form-stock">
+          <div class="purchase">
+            <label for="purchase-price">Enter Purchase price</label>
+
+            <input
+              type="number"
+              name="purchase-price"
+              id="purchase-price"
+              required
+            />
+          </div>
+
+          <div class="quantity">
+            <label for="quantity">Enter No of stocks</label>
+            <input type="number" name="quantity" id="quantity" required />
+          </div>
+          <div class="sell">
+            <label for="sellprice">Enter selling price of stocks</label>
+            <input type="number" name="sellprice" id="sellprice" required />
+          </div>
+         
+        </form>
+        <div class="button">
+            <button class="value" >Check</button>
+          </div>
+       
+      </div>
+      <div class="item2">
+        <h3 class="result">Profit and loss will show here</h3>
+      </div>
+    </div>
+
+    <script src="
+    script.js"></script>
+  </body>
+</html>
