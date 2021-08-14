@@ -9,4 +9,4 @@ This is app built with **Html** **css** **Vanilla Javascript** Which tells how m
 4. Enter the selling price of the Stocks
 5. Click on the check Button
 6. And your Result will be shown on the right side 
-[See It Live](https://stockprofit.netlify.app/)
+### [See It Live](https://stockprofit.netlify.app/)
