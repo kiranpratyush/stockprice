@@ -17,7 +17,7 @@ function calcProfitOrLoss(costPrice, quantity, sellingPrice) {
     percentloss = Math.round((loss / (costPrice * quantity)) * (100));
     console.log(percentloss);
     if (percentloss > 50) {
-      h3.textContent = `You have Made total ${loss} rupees loss(in ${percentloss}%`;
+      h3.textContent = `You have Made total ${loss} rupees loss(in ${percentloss}%)`;
       item2.style.backgroundColor = "red";
     } else {
       h3.textContent = `You have Made total ${loss} rupees loss(in ${percentloss}%))`;
